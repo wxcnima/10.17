@@ -1,0 +1,23 @@
+#题目 求5！
+def num(number):
+    if number!=1:
+        total=number*num(number-1)
+    else:
+        total=1
+    return total
+
+print(num(5))
+
+
+'''
+def factorial(n):
+    return n*factorial(n-1) if n>1 else 1
+print(factorial(5))
+
+'''
+
+'''
+def factorial(n):
+    return n*factorial(n-1) if n>1 else 1
+print(factorial(4))
+'''
